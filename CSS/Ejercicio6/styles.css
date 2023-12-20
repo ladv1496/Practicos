@@ -1,0 +1,15 @@
+p{
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+    font-size: 12px;
+}
+h1{color: blue;}
+h2{color: green;}
+.parrafos{
+    width: 80%;
+    padding: 0px 0px 10px 10px;
+}
+
+.botonera{
+    font-size: 12;
+    font-weight: bold;
+}
