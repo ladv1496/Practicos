@@ -1,0 +1,17 @@
+table{
+    border-style: double;
+    /* border-collapse: collapse; */
+    background-color: gray;
+    border-spacing: 12px;
+}
+th{
+    border-style: solid;
+    background-color: rgb(54, 152, 54);
+    border-spacing: inherit;
+}
+td{
+    border-style: groove;
+    background-color: orange;
+    border-spacing: inherit;
+    padding: 4px;
+}
