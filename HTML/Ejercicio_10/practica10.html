@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+
+<body>
+    <h4>Tabla con 3 filas y 3 columnas</h3>
+
+        <table border>
+            <thead>
+                <tr>
+                    <th>Apellido</th>
+                    <th>Nombre</th>
+                    <th>DNI</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Juan</td>
+                    <td>Frias</td>
+                    <td>12.123.123</td>
+                </tr>
+                <tr>
+                    <td>Pedro</td>
+                    <td>Paez</td>
+                    <td>32.321.123</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+    
+        <h4>Tabla con 2 filas y 4 columnas</h4>
+      
+        <thead>
+            <table border>
+                <tr>
+                    <th>Lunes</th>
+                    <th>Miercoles</th>
+                    <th>Viernes</th>
+                    <th>Domingo</th>
+                </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Juan</td>
+                <td>Francisco</td>
+                <td>Lucas</td>
+                <td>Pedro</td>
+            </tr>
+
+        </tbody>
+        </table>
+        <hr>
+        <h4>Una tabla con 3 filas, donde la primera fila tenga solo una celda y las otras dos filas
+            tengan 3 celdas.</h4>
+        
+
+        <table border>
+            <tr>
+                <td colspan="3" align="center">Menu del dia</td>
+            </tr>
+            <tr>
+                <td>Ravioles</td>
+                <td>Canelones</td>
+                <td>Costeleta a La Riojana</td>
+            </tr>
+            <tr>
+                <td>Parrillada</td>
+                <td>Empanadas</td>
+                <td>Locro de choclo</td>
+            </tr>
+        </table>
+        <hr>
+        <h4>Una tabla con 3 columnas, donde la primera columna tiene 2 celdas, la segunda
+            columna 1 celda y la tercera columna 3 celdas (filas).</h4>
+        
+        <table border>
+            <tr>
+                <td rowspan="2">&ThickSpace;A&ThickSpace;</td>
+                <td rowspan="3">&ThickSpace;C&ThickSpace;</td>
+                <td>&ThickSpace;D&ThickSpace;</td>
+            </tr>
+            <tr>
+                <td >&ThickSpace;E&ThickSpace;</td>
+            </tr>
+            <tr>
+                <td>&ThickSpace;B&ThickSpace;</td>
+                <td>&ThickSpace;F&ThickSpace;</td>
+            </tr>
+        </table>
+</body>
+
+</html>

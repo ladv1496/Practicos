@@ -1,0 +1,16 @@
+.perfil {
+    float: left;
+    margin-right: 10px;
+}
+
+.ultima {
+    margin-left: 75px;
+}
+
+.nombres {
+    font-weight: bold;
+}
+
+.gris {
+    color: gray;
+}

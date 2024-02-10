@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisar numeros</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        let num1 = parseFloat(prompt("Ingrese un numero"));
+        let num2 = parseFloat(prompt("Ingrese un numero"));
+        let num3 = parseFloat(prompt("Ingrese un numero"));
+        if (num1 > num2 && num1 > num3) {
+            alert("El numero mas grande es: " + num1);
+        } else if (num2 > num3 && num2 > num1) {
+            alert("El numero mas grande es: " + num2);
+        } else if (num3 > num2 && num3 > num1) {
+            alert("El numero mas grande es: " + num3);
+
+        } else {
+            alert("Todos son iguales");
+        }
+
+    </script>
+</body>
+
+</html>
