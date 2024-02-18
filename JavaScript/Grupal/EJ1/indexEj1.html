@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+    <h2>Calculadora de Días Vividos</h2>
+
+    <script>
+
+        function calcularDiasVividos(nombre, edad) {
+
+            const diasEnUnAno = 365;
+
+
+            let diasVividos = edad * diasEnUnAno;
+
+            alert("Hola, " + nombre + ". Has vivido aproximadamente " + diasVividos + " días.");
+        }
+
+        let nombre = prompt("Por favor, ingresa tu nombre:");
+
+        let edad = prompt("Hola, " + nombre + ". Por favor, ingresa tu edad:");
+
+        edad = parseInt(edad);
+
+        if (!isNaN(edad) && edad > 0) {
+            calcularDiasVividos(nombre, edad);
+        } else {
+            alert("Por favor, ingresa una edad válida.");
+        }
+    </script>
+</body>
+</html>
